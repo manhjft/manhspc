@@ -1,16 +1,29 @@
 #include<stdio.h>	
 
  int main(){
-int a;
-	printf ("nhap Diem");
-	scanf("%d", &a);
-	
-	
-	
-if(a>=5){
-	prinft("hoc sinh trung binh");	
-} 
+ 	int a;
+ 	printf("nhap a = ");
+ 	scanf("%d", &a);
+ 	
+ 	
+ 	if(a>9){
+ 		printf("hoc sinh xuat sac");
+	 }else {
+	 
+	 if(a>=8){
+	 	printf("hoc sinh gioi");	
+	 }else{
+	 	if(a>=7){
+	 		printf("hoc sinh kha");
+		 }else{
+		 	if(a>=5){
+		 		printf("hoc sinh trung binh");
+			 }else{
+			 	printf("hoc sinh yeu");
+			 }
+		 }
+	 	}
+	 }
 
-else{
-	printf("hoc sinh yeu");
-}
+ 	
+ }
